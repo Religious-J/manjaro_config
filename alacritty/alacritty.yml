@@ -1,0 +1,90 @@
+# 设置字体
+font:
+  normal:
+    family: 0xProtoNerdFontPropo
+    style: Normal
+  bold:
+    family: 0xProtoNerdFontMono
+    style: Bold
+  italic:
+    family: 0xProtoNerdFontMono
+    style: Italic
+  bold_italic:
+    family: 0xProtoNerdFontMono
+    style: Bold Italic
+
+  # 字大小
+  size: 12.5
+    #size: 11.0
+
+  offset:
+    x: 0
+    y: 3
+    #glyph_offset:
+    #x: 0
+    #y: 0
+
+  height: 2
+
+scrolling:
+  # 回滚缓冲区中的最大行数,指定“0”将禁用滚动。
+  history: 10000
+
+  # 滚动行数 
+  multiplier: 10
+
+# 如果为‘true’，则使用亮色变体绘制粗体文本。
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+  save_to_clipboard: true
+  #live_config_reload: true
+
+key_bindings:
+  - { key: V, mods: command, action: Paste }
+  - { key: C, mods: command, action: Copy }
+
+# 默认窗口无标题栏，16:9的窗口比例启动
+window:
+  # decorations: "none"
+  dimensions:
+    columns: 120
+    lines: 40
+  #opacity: 0.83
+  opacity: 0.70
+  padding:
+    x: 10
+    y: 7
+# 实时重载配置文件，不用重启测试配置选项
+live_config_reload: true
+
+# 主题
+colors:
+  name: Tangoesque
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#aaaaaa"
+  cursor:
+    text: "#000000"
+    cursor: "#aaaaaa"
+  normal:
+    black: "#202020"
+    red: "#ff6565"
+    green: "#93d44f"
+    yellow: "#eab93d"
+    blue: "#204a87"
+    magenta: "#ce5c00"
+    cyan: "#89b6e2"
+    white: "#cccccc"
+  bright:
+    black: "#606060"
+    red: "#ff8d8d"
+    green: "#c8e7a8"
+    yellow: "#ffc123"
+    blue: "#3465a4"
+    magenta: "#f57900"
+    cyan: "#46a4ff"
+    white: "#ffffff"
+theme: Tangoesque

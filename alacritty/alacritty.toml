@@ -1,0 +1,88 @@
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#606060"
+blue = "#3465a4"
+cyan = "#46a4ff"
+green = "#c8e7a8"
+magenta = "#f57900"
+red = "#ff8d8d"
+white = "#ffffff"
+yellow = "#ffc123"
+
+[colors.cursor]
+cursor = "#aaaaaa"
+text = "#000000"
+
+[colors.normal]
+black = "#202020"
+blue = "#204a87"
+cyan = "#89b6e2"
+green = "#93d44f"
+magenta = "#ce5c00"
+red = "#ff6565"
+white = "#cccccc"
+yellow = "#eab93d"
+
+[colors.primary]
+background = "#000000"
+foreground = "#aaaaaa"
+
+[font]
+size = 16.5
+
+[font.bold]
+# family = "monego"
+family = "0xProtoNerdFontMono"
+style = "Bold"
+
+[font.bold_italic]
+#family = "monego"
+family = "0xProtoNerdFontMono"
+style = "Bold"
+
+[font.italic]
+# family = "Monaco for Powerline"
+family = "0xProtoNerdFontMono"
+style = "Italic"
+
+[font.normal]
+# family = "Monaco for Powerline"
+family = "0xProtoNerdFontPropo"
+style = "regular"
+
+[font.offset]
+x = 0
+y = 6
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "command"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "command"
+
+[scrolling]
+history = 10000
+multiplier = 10
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[window]
+opacity = 0.8
+
+[window.dimensions]
+columns = 120
+lines = 40
+
+[window.padding]
+x = 10
+y = 7
